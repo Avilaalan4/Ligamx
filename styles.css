@@ -1,0 +1,32 @@
+body{
+    background-image: url(corona\ \(1\).png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.partidos{
+    width: 10%;
+    height: 10%;
+    background-color: burlywood;
+    margin-bottom: 20px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+li{
+    list-style: none;
+
+}
+.Menu a{
+    font-size: x-large;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0 30px;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Menu a:hover{
+    background-color: rgb(45, 45, 219);
+}
